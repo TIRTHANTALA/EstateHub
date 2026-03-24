@@ -38,42 +38,19 @@ A complete Real Estate Buy & Rent Platform built with Python, Streamlit, and Mon
 - MongoDB (local or Atlas)
 - pip package manager
 
-## 🚀 Installation
+## 🚀 How to Run
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/TIRTHANTALA/EstateHub.git
-cd EstateHub
-```
+1. Clone the repo
+   git clone https://github.com/TIRTHANTALA/EstateHub.git
 
-2. **Create virtual environment**
-```bash
-python -m venv venv
-venv\Scripts\activate
-```
+2. Install dependencies
+   pip install -r requirements.txt
 
-3. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
+3. Add your MongoDB URI in .env file
+   MONGO_URI=mongodb://localhost:27017/
 
-4. **Configure environment**
-```bash
-# Create a .env file and add:
-MONGO_URI=mongodb://localhost:27017/
-EMAIL_ADDRESS=your@gmail.com
-EMAIL_PASSWORD=your_app_password
-```
-
-5. **Run the application**
-```bash
-streamlit run app.py
-```
-
-6. **Open in browser**
-```
-http://localhost:8501
-```
+4. Run the app
+   streamlit run app.py
 
 ## 🔐 Login Credentials
 
